@@ -30,7 +30,7 @@ function initializeNavigation() {
         const spans = hamburger.querySelectorAll('span');
         spans.forEach((span, index) => {
             if (hamburger.classList.contains('active')) {
-                if (index === 0) span.style.transform = 'rotate(45deg) translate(5px, 5px)';
+                if (index === 0) span.style.transform = 'rotate(45deg) translate(7px, 5px)';
                 if (index === 1) span.style.opacity = '0';
                 if (index === 2) span.style.transform = 'rotate(-45deg) translate(7px, -6px)';
             } else {
